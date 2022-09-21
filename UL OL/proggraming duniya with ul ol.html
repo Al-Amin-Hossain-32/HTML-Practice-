@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ul ol practice</title>
+    <style>
+        body{
+            max-width: 90%;
+            margin: 10px auto;
+           
+        }
+        p{
+           font-size: 22px;
+       }
+       .header{
+           width: 90%;
+           max-height:350px;
+           margin: 20px auto;
+           padding: 10px 20px;
+           background-color: #EEE2DC;
+       }
+       .header h1,h3{
+           text-align: center;
+       }
+       a{
+           background-color: #f1f1f1;
+           text-decoration: none;
+       }
+       a:hover{
+           color: white;
+           background-color: black;
+       }
+
+       .container{
+           width: 90% ;
+           margin: 20px auto;
+           padding: 20px;
+           background-color: antiquewhite;
+       }
+
+        .container ol li p{
+            font-size: 38;
+        }
+        .popframe ol li{
+            font-size: 34px;
+        }
+        ul{
+            list-style-type: disc;
+        }
+        .frameworks li{
+            font-size: 18px;
+            font-weight: 200;
+        }
+       
+       .frameworks h3{
+           font-size: 28px;
+           text-align: left;
+       }
+       .frameworks ul li{
+           font-size:24px ;
+       }
+       .table{
+           width: 60%;
+           margin: 10px auto  ;
+           margin-bottom: 50px;
+       }
+       .table h1{
+           background-color: greenyellow;
+           color: red;
+           text-align: center;
+           margin: 20px auto ;
+           padding: 10px 
+       }
+        
+       .table table,th,td{
+           border: 2px solid red;
+           text-align: center;
+           
+       }
+       .table table tr th{
+           color: blue;
+           background-color: rgb(243, 115, 115);
+           padding: 10px;
+
+       }
+       .table table tr td{
+           margin: 10px;
+           padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Programing Duniya </h1>
+            <h3>Here Top 10 Programing Language some details. You can <a target="blank" href="https://www.kdnuggets.com/2021/05/top-programming-languages.html">Learn More Here</a></h3>
+            <p> If you’re planning to pick up a programming language in 2021, we’d suggest picking up something that is more 
+                <strong>modern, widely used, and has loads of packages or libraries.</strong> </p>
+        </div>
+        
+            <p> In this section, we’ll go over some of the widely used programming languages that tick all the boxes that we 
+                mentioned above and share their uses as well. </p> <br>
+    
+                <ol>
+                    <li><p>Python — Artificial Intelligence & Machine Learning</p>
+                        <ul class="detailes">
+                             <li>Level:
+                                 <ol type="i">
+                                     <li> Beginner</li>
+                                 </ol>
+                             </li>
+                             <li class="popframe">Popular Frameworks:
+                                <ol type="i">
+                                    <li> Django
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Full-stack framework Django is one of the most beloved web development frameworks for developing Python applications. In fact, it ended up being one of the top 10 web development frameworks of 2022. Django framework follows the DRY 
+                                                (Don’t Repeat Yourself) principle.</p><br>
+                                            <p>Unlike others, the free-to-use and open-source full-stack Python framework include a grand number of built-in features rather than offering them as individual libraries. Django makes use of its ORM for mapping objects to database tables.
+        
+                                                This results in allowing the code to work across different databases as well as making it easier to migrate from one database to the other. Though Django has inherent support for MySQL, PostgreSQL, SQLite, and Oracle Database, it can support other databases via third-party drivers.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul >
+                                                <li>A plethora of ready-to-use libraries</li>
+                                                <li>Authentication support</li>
+                                                <li>Database schema migrations</li>
+                                                <li>Object-relational mapper (ORM)</li>
+                                                <li>Support for web servers</li>
+                                                <li>Template engine</li>
+                                                <li>URL routing</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li> Flask 
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Microframework Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 template and Werkzeug WSGI toolkit. Thanks to its lightweight and modular design, Flask is readily adaptable.</p><br>
+                                        <p>Flask allows the developers to build a solid web application foundation from where it is possible to use any kind of extensions required. The micro-framework is compatible with Google App Engine.</p>
+                                        <h3>Key highlights:-</h3>
+                                        <ul >
+                                            <li>Built-in fast debugger</li>
+                                            <li>HTTP request handling</li>
+                                            <li>Inbuilt development server</li>
+                                            <li>Jinja2 templating</li>
+                                            <li>RESTful request dispatching</li>
+                                            <li>Support for plugging in any ORM</li>
+                                            <li>Supports secure cookies to establish client-side sessions</li>
+                                            <li>Unicode-based</li>
+                                            <li>Unit testing support</li>
+                                            <li>WSGI 1.0 compliance</li>
+                                        </ul>
+                                        </div>
+                                    </li>
+                                    <li> AIOHTTP
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Asynchronous framework AIOHTTP is a Python framework that relies heavily on Python 3.5+ features, such as async & awaits. The Python framework makes use of Python’s asyncio library, and is hence an asynchronous framework.</p><br>
+                                            <p>  In addition to being a server web framework, AIOHTTP can also serve as a client framework. It provides a request object and router to enable the redirection of queries to functions developed to handle the same.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>Allows effectively building the views</li>
+                                                <li>Middlewares support</li>
+                                                <li>Pluggable routing</li>
+                                                <li>Signals</li>
+                                                <li>Supports both Client WebSockets and Server WebSockets without the Callback Hell</li>
+                                                                                           </ul>
+                                        </div>
+                                    </li>
+                                    <li>Bottle
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Microframework Bottle creates a single source file for every application developed using it. It is one of the best python web framework.The microframework for Python was originally developed for building APIs. Other than the Python Standard Library, Bottle has no dependencies required for crafting small web applications.</p><br>
+                                            <p>One of the most important advantages of using Bottle is that it allows developers to work closer to the hardware. In addition to building simplistic personal-use apps, Bottle is an apt fit for learning the organization of web frameworks and prototyping.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>Adapter support for 3rd-party template engines and WSGI/HTTP servers</li>
+                                                <li>Allows simple access from cookies, data, file uploads, and other HTTP-related metadata</li>
+                                                <li>Built-in HTTP server</li>
+                                                <li>Plugin support for different databases</li>
+                                                <li>Provides request-dispatching routes having URL-parameter support</li>
+                                               
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>CherryPy
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Microframework CherryPy is a popular open-source, object-oriented Python framework that follows a minimalistic approach. The micro-framework is one of the oldest Python frameworks, debuting in the June of 2002.
+
+                                                Any CherryPy-powered web application is a standalone Python application with its own embedded multi-threaded web server and runs on any OS with support for Python. Such an app can be deployed anywhere an ordinary Python app is able to run.</p><br>
+                                            <p>There is no need for an Apache server for running apps developed using CherryPy. The micro-framework allows the developer(s) to make use of any type of technology for data access, templating, et cetera.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>A number of out-of-the-box tools for authentication, caching, encoding, sessions, static content, and much more</li>
+                                                <li>A flexible built-in plugin system</li>
+                                                <li>HTTP/1.1-compliant WSGI thread-pooled web server</li>
+                                                <li>Inbuilt support for coverage, profiling, and testing</li>
+                                                <li>Offers simplicity for running multiple HTTP servers simultaneously</li>
+                                                <li>Powerful configuration system</li>
+                                                <li>Runs on Android</li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>CubicWeb
+                                        <div class="frameworks">
+                                            <p>Type – Full-stack framework Developed and curated by Logilab, CubicWeb is a free-to-use, semantic, open-source, Python-based web framework. Based on the data model, CubicWeb requires to have the same defined in order to develop a functional application.</p><br>
+                                            <p>Unlike other popular Python frameworks that use separate views and models, CubicWeb makes use of cube. Multiple cubes are then joined together for creating an instance with the help of a database, a web server, and some configuration files.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>OWL (Web Ontology Language) and RDF (Resource Description Framework) support</li>
+                                                <li>Reusable components</li>
+                                                <li>Security workflows</li>
+                                                <li>Simplifies data-related queries with RQL (Relational Query Language) embedding</li>
+                                                <li>Support for multiple databases</li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Dash
+                                        <div class="frameworks">
+                                            <p>Type – Microframework Dash is an open-source Python-based framework for building analytical web applications. It is an ideal Python framework for data scientists that aren’t much into the mechanics of web development.
+
+                                                Applications designed with Dash are web servers that run Flask and communicate with JSON packets via HTTP requests. Their frontend renders components using ReactJS. Flask plugins can be used for extending the capabilities of Dash.</p><br>
+                                            <p>Because Dash apps are rendered in the web browser and can be deployed to servers, they are cross-platform and mobile-ready. Dash developers are provided access to the underlying Flask instance as well as all of its configurable properties.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>Dash apps demand very little boilerplate code for getting started</li>
+                                                <li>Error handling (Dash Deployment Server)</li>
+                                                <li>High-degree of customization</li>
+                                                <li>LDAP integration (Dash Deployment Server)</li>
+                                                <li>Plugin support</li>
+                                                <li>Simple interface for tying UI controls, including dropdowns, graphs, and sliders</li>
+                                                <li>URL routing (Dash Deployment Server)</li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Falcon
+                                        <div class="frameworks">
+                                            <p>Type – Microframework Aimed at rapidly building web APIs, Falcon is another widely used Python framework. Unlike other Python frameworks that require loading a lot of dependencies for building HTTP APIs, Falcon allows developers to build a cleaner design that enables HTTP and REST architectures.
+
+                                                As per the benchmark test conducted by Sanic, Falcon is able to handle most requests with the same hardware than all its contemporaries. The Python framework aims to have 100% code coverage. Falcon is used by big players like LinkedIn, OpenStack, and RackSpace.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>An extensible, highly-optimized code base</li>
+                                                <li>Upfront exception handling</li>
+                                                <li>Unit testing via WSGI helpers and mocks</li>
+                                                <li>Extra speed boost with Cython support</li>
+                                                <li>Idiomatic HTTP error responses</li>
+                                                <li>Ease of access for headers and bodies via request and response classes</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Flask <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Microframework Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 template and Werkzeug WSGI toolkit. Thanks to its lightweight and modular design, Flask is readily adaptable.
+
+                                                Flask allows the developers to build a solid web application foundation from where it is possible to use any kind of extensions required. The micro-framework is compatible with Google App Engine.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>HTTP request handling</li>
+                                                <li>Inbuilt development server
+                                                    Jinja2 templating</li>
+                                                <li>RESTful request dispatching</li>
+                                                <li>Support for plugging in any ORM</li>
+                                                <li>Unicode-based</li>
+                                                <li>Unit testing support</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Giotto <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Full-stack framework Based on the Model View Controller pattern, Giotto is an application framework for Python. In order to allow web designers, web developers, and system admins to work independently, Giotto separates Model, View, and Controller elements in order.
+
+                                                Giotto includes controller modules that enable users to create apps on top of the web, IRC (Internet Relay Chat), and command line.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>Automatic URL routing</li>
+                                                <li>Database persistence with SQLAlchemy</li>
+                                                <li>Extremely succinct code</li>
+                                                <li>Functional CRUD patterns</li>
+                                                <li>Generic models and views</li>
+                                                <li>Multiple pluggable controllers</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Growler
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Asynchronous framework Inspired by the NodeJS and the Express/Connect frameworks, Growler is a micro web framework written atop the Python’s asyncio library.
+
+                                                Unlike other conventional Python frameworks, requests in Growler aren’t handled in the framework but by passing through middleware technology.
+                                                
+                                                A top choice among Python frameworks for easily and quickly implementing complex applications, Growler was originally developed by its author to simply learn how to use asyncio library at its lowest levels.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>Easy to see program flow due to lack of required callbacks and proper try/except blocks</li>
+                                                <li>Use decorators for writing clean, reusable code</li>
+                                                <li>Support for a multitude of open-source packages</li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Hug
+                                        <hr>
+                                        <div class="frameworks">
+                                            <p>Type – Microframework HUGThe Hug is designed to allow Python developers to develop an API once and then use it anywhere they wish. The Python framework simplifies API development by means of offering multiple interfaces. It is labeled as the fastest web framework for Python 3.
+
+                                                Whether you are doing local development or over HTTP or via the CLI, Hug lets you complete application development quickly and easily. In order to take performance to the next level, Hug consumes resources only when required and uses Cython for compilation.</p>
+                                            <h3>Key highlights:-</h3>
+                                            <ul>
+                                                <li>Annotation-powered validation</li>
+                                                <li>Follows write once, use anywhere philosophy</li>
+                                                <li>Inbuilt version management</li>
+                                                <li>Supports automatic documentation</li>
+                                     
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li> JavaScript — Rich Interactive Web Development</li>
+                    <li>  Java — Enterprise Application Development</li>
+                    <li> R — Data Analysis </li>
+                    <li>C/C++ — Operating Systems and System Tools</li>
+                    <li> Golang — Server-Side Programming</li>
+                    <li>C# — Application & Web Development Using .NET</li>
+                    <li>PHP — Web Development</li>
+                    <li> SQL — Data Management</li>
+                    <li>Swift — For Mobile App Development on iOS</li>
+                    
+                </ol>
+    
+        <h2>Conclusion</h2>
+    </div>
+    <div class="table">
+        <h1>Extra Information of Programing Language</h1>
+        <table>
+            <tr>
+                <th>Language Name </th>
+                <th> Designed By </th>
+                <th>First Appeared</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>WHATWG</td>
+                <td>1993</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>World Wide Web Consortium(W3C)</td>
+                <td>December 17,1996</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Brendan Eich Of Netscape</td>
+                <td>December 4,19995</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Python Software Foundation</td>
+                <td> 20 February 1991</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
